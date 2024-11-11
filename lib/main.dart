@@ -1,15 +1,16 @@
-import 'package:d_day_app/const_data/const_diary_data.dart';
-import 'package:d_day_app/controller/calendar_controllers/calendar_controller.dart';
-import 'package:d_day_app/controller/d_day_controllers/d_day_controller.dart';
-import 'package:d_day_app/data/data_model/d_day_data_model.dart';
-import 'package:d_day_app/data/data_model/diary_data_model.dart';
-import 'package:d_day_app/home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
 import 'const_data/const_d_day_data.dart';
 import 'controller/diary_controllers/diary_page_controller.dart';
+
+import 'package:d_day_app/const_data/const_diary_data.dart';
+import 'package:d_day_app/controller/calendar_controllers/calendar_controller.dart';
+import 'package:d_day_app/controller/d_day_controllers/d_day_controller.dart';
+import 'package:d_day_app/data/data_model/d_day_data_model.dart';
+import 'package:d_day_app/data/data_model/diary_data_model.dart';
+import 'package:d_day_app/home_page.dart';
 
 void main() async {        // Git 에 제대로 반영됐는지 확인
   await Hive.initFlutter();
