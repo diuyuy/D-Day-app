@@ -12,7 +12,7 @@ import 'package:d_day_app/data/data_model/d_day_data_model.dart';
 import 'package:d_day_app/data/data_model/diary_data_model.dart';
 import 'package:d_day_app/home_page.dart';
 
-void main() async {        // Git 에 제대로 반영됐는지 확인
+void main() async {
   await Hive.initFlutter();
 
   Hive.registerAdapter(HiveDiaryDataAdapter());
