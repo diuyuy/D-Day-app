@@ -11,7 +11,7 @@ import 'package:hive_flutter/hive_flutter.dart';
 import 'const_data/const_d_day_data.dart';
 import 'controller/diary_controllers/diary_page_controller.dart';
 
-void main() async {
+void main() async {        // Git 에 제대로 반영됐는지 확인
   await Hive.initFlutter();
 
   Hive.registerAdapter(HiveDiaryDataAdapter());
